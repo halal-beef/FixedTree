@@ -8,6 +8,10 @@ https://github.com/lopestom
 
 ***UNTESTED AS OF SPEAKING WILL BE TESTING WHEN IT BUILDS THIS WILL BE UPDATED WHEN I HAVE TESTED IT***
 
+**BUILDS BUT NO RECOVERY!**
+
+**WILL BE FIXED**
+
 This trees android version?
 
 Android 9
