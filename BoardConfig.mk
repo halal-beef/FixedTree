@@ -135,6 +135,8 @@ TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backl
 TW_DEFAULT_BRIGHTNESS := 80
 
 #SHRP
+SHRP_DARK := true
+SHRP_NOTCH := true
 SHRP_DEVICE_CODE := Wasp
 SHRP_PATH := device/nokia/Wasp
 SHRP_MAINTAINER := areallydumbperson
