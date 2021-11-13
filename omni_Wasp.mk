@@ -1,8 +1,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := Wasp
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+# Fixing What PBRP's Site Told Me To Do.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/pb/config/common.mk)
