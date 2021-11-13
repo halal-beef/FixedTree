@@ -133,6 +133,20 @@ TW_INCLUDE_FB2PNG := true                     # Include Screenshot Support
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 80
+
+#SHRP
+SHRP_DEVICE_CODE := Wasp
+SHRP_PATH := device/nokia/Wasp
+SHRP_MAINTAINER := areallydumbperson
+SHRP_DEVICE_TYPE := A/B
+#SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
+SHRP_FLASH := 0
+SHRP_REC_TYPE := Normal
+SHRP_SKIP_DEFAULT_ADDON_4 := true
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+
 #
 #
 #The End!
